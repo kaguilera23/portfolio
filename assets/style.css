@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(241, 210, 235);
+}
+.header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: lightblue;
+    text-decoration: underline lightblue;
+    list-style: none;
+}
