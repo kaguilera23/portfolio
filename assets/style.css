@@ -20,10 +20,16 @@ header ul {
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
 }
 
 header ul li {
     margin: 10px;
+}
+
+.links {
+    
 }
 
 .subtitle {
@@ -49,10 +55,23 @@ h1 {
     
 }
 
-.showcase ul {
+.showcase ul{
     list-style:none;
 }
 
 main {
     background-color: #d4d6d6;
+}
+
+#about-me h3 {
+    text-decoration: underline;
+    text-decoration-;
+}
+
+#work h3 {
+    text-decoration: underline;
+}
+
+#contact-me h3 {
+    text-decoration: underline;
 }
