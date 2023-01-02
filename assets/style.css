@@ -31,6 +31,8 @@ header ul li {
 .subtitle {
     background-image: url(./images/bluebackground2.webp);
     padding: 40px;
+    background-size: cover;
+   
 }
 
 h1 {
@@ -44,12 +46,13 @@ h1 {
     position: relative;
     top: 50px;
     left: 80%;
-    text-align:end;  
+    text-align:end;
+    border-radius: 10px;  
 }
-
+/* 
 main {
     background-color: #d4d6d6;
-}
+} */
 
 header li:hover {
     cursor: pointer;
@@ -76,17 +79,13 @@ main ul {
     border-left: 3px solid;
     padding: 10px;
     margin: 10px;
+       
 }
 
 .information ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.information li {
-    border-bottom: 4px solid #6b7eb3;
-    padding: 3px;
 }
 
 .titles {
@@ -100,5 +99,64 @@ main ul {
 }
 
 figure {
-    background-color: #6b7eb3; 
+    padding: 20px;
+}
+
+.sections {
+    border: 8px solid #6b7eb3;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+.biggest {
+    display: flex;
+    width: 80%;
+}
+
+.not-sure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other {
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 190px;
+}
+
+#surf-report {background-image: url(./images/surf.jpeg);
+    background-size: cover;
+    background-position: center;}
+#led-wall {background-image: url(./images/lazer-maze-scaled.webp);
+    background-size: cover;
+    background-position: center;}
+#calculator {background-image: url(./images/calc.jpg);
+    background-size: cover;
+    background-position: center;}
+#pastel-puzzles {background-image: url(./images/Jigsaw_puzzle_01_by_Scouten.jpg);
+    background-size: cover;
+    background-position: center;}
+#run-buddy {background-image: url(./images/running.jpg);
+    background-size: cover;
+    background-position: center;}
+
+.sections p {
+    background-color: #6b7eb3;
+    width: fit-content;
+}
+
+a:link {
+    text-decoration: none;
+    text-decoration-color: #6b7eb3;
+}
+
+a {
+    border-bottom: 4px solid #6b7eb3;
+    padding: 3px;
+}
+
+a:hover {
+    color: rgb(236, 128, 146);
 }
