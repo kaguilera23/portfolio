@@ -2,11 +2,17 @@ body {
     font-size: 20px;
     font-family: verdana;
     margin: 10px;
+    border: 3px solid #6b7eb3;
+    border-bottom: none;
 }
 
 header {
     background-color: #303838; 
     padding: 15px;
+}
+
+div {
+    height: 40px;
 }
 
 
@@ -16,43 +22,60 @@ header ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    text-decoration-thickness: 3px;
 }
 
 header ul li {
     margin: 10px;
 }
 
+nav p {
+    background-color: #6b7eb3;
+    padding: 80px 20px 20px 20px;
+    margin-left: 0px;
+    border: 0px solid;
+    width: fit-content;
+    font-size: 40px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 18px;
+    bottom: 57px;
+}
+
 .links {
     border-bottom: 4px solid #6b7eb3;
     padding: 10px;
+    position: relative;
+    bottom: 50px;
 }
 
 .subtitle {
     background-image: url(./images/bluebackground2.webp);
     padding: 40px;
     background-size: cover;
-   
+    /* display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+.please {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 h1 {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #6b7eb3;
-    padding: 5px;
-    width:300px;
-    display: flex;
-    justify-content: flex-end;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    text-align: end;
     position: relative;
     top: 50px;
-    left: 80%;
-    text-align:end;
-    border-radius: 10px;  
 }
-/* 
-main {
-    background-color: #d4d6d6;
-} */
 
 header li:hover {
     cursor: pointer;
@@ -98,10 +121,6 @@ main ul {
     color: rgb(236, 128, 146);
 }
 
-figure {
-    padding: 20px;
-}
-
 .sections {
     border: 8px solid #6b7eb3;
     border-radius: 10px;
@@ -113,11 +132,23 @@ figure {
     width: 80%;
 }
 
+.biggest p {
+    position: relative;
+    right: 84px;
+    top: 65px;
+}
+
 .not-sure {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.not-sure p {
+    position: relative;
+    right: 13px;
+    top: 65px;
 }
 
 .other {
@@ -145,18 +176,44 @@ figure {
 .sections p {
     background-color: #6b7eb3;
     width: fit-content;
+    padding: 8px;
+    border-radius: 5px; 
 }
 
-a:link {
-    text-decoration: none;
-    text-decoration-color: #6b7eb3;
-}
-
-a {
+#profiles a {
     border-bottom: 4px solid #6b7eb3;
     padding: 3px;
 }
 
+#profiles li {
+    border-bottom: 4px solid #6b7eb3;
+    padding: 3px;
+}
+
+a {
+    color: black;
+}
+
+#profiles a {
+    color: #6b7eb3;
+}
+
+.links a {
+    color: #6b7eb3;
+}
+
+.sections:hover {
+    font-size: 90%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 a:hover {
     color: rgb(236, 128, 146);
+}
+
+#profiles a:hover {
+    color: rgb(236, 128, 146)
 }
