@@ -147,14 +147,14 @@ main ul {
     top: 65px;
 }
 
-.not-sure {
+.smaller {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.not-sure p {
+.smaller p {
     position: relative;
     right: 13px;
     top: 65px;
@@ -166,7 +166,7 @@ main ul {
     padding-right: 190px;
 }
 
-#binge-calculator {background-image: url(./images/logo.jpg);
+#binge-calculator {background-image: url(./images/Capture.JPG);
     background-size: cover;
     background-position: center;}
 #led-wall {background-image: url(./images/lazer-maze-scaled.webp);
