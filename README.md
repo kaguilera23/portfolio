@@ -18,7 +18,7 @@ Clicking any of the links at the top will take you to the associated section of 
 
 To launch a new tab to view any of the projects under "Works", you must click on the project name rather than the picture, although hovering over the image does result in the pink element highlighting.
 
-![alt text](./assets/images/bestlogo.png)
+![alt text](./assets/images/readpageshot.png)
 
 Currently, the URL links are placeholders to the Google homepage until respective profiles and projects are fully developed.
 
